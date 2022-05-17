@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+    <meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+    <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <title>Marlyn Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="it-rating" content="it-rat-cd303c3f80473535b3c667d0d67a7a11" />
+    <meta name="cmsmagazine" content="3f86e43372e678604d35804a67860df7" />
+    <style>
+        .loaded .load-icon{display:block;}
+        .loaded *{-webkit-transition:none; -ms-transition:none; transition:none;}
+        .load-icon{width:100%; height:100%; margin:0; padding:0; display:none; z-index:99999; position:absolute; top:0; left:0; background:#fff;}
+        .load-icon:before{content:""; width:64px; height:64px; margin:-32px 0 0 -32px; position:absolute; top:50%; left:50%; background:url(assets/img/loader.gif) no-repeat left top;}
+    </style>     
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">       
+</head>
+<body class="loaded">
+
+    <div class="load-icon"></div>
+
+    <div class="page-container">
+
+        <!-- BEGIN HEADER -->
+        <header class="header">
+            <div class="header__main">
+                <div class="header__cols">
+                    <div class="header__left">
+                        <div class="header__cols">
+                            <div class="header__col">
+                                <button class="mob-button js-mob-open">
+                                    <span class="mob-button__icon"></span>
+                                </button>
+                            </div>
+                            <div class="header__col">
+                                <a class="logo" href="#">
+                                    <img class="logo__image" src="assets/imagenes/Marlyn.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__col header__col_hide-mob">
+                                <nav class="header-nav">
+                                    <ul class="header-nav__list">
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="index.html">Inicio</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="shop.html">Tienda</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="about.html">Sobre nosotros</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="blank">Whatsapp</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>                                                
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <ul class="user-nav">
+                            <li class="user-nav__item">
+                                <a class="user-nav__link" href="https://www.instagram.com/marlynshopgt/" target="_blank" title="Instagram">
+                                    <span class="user-nav__icon user-nav__icon_3"></span>
+                                </a>
+                            </li>
+                            <li class="user-nav__item">
+                                <a class="user-nav__link" href="shop.html" title="Tienda">
+                                    <span class="user-nav__icon user-nav__icon_4"></span>
+                                </a>
+                            </li>                                                                                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END --> 
+        
+        <!-- MOBILE NAVIGATION -->
+        <div class="hide-mob js-mob-hide">
+            <div class="hide-mob__bg">
+                <button class="hide-mob__close close-button js-mob-close"></button>  
+                <div class="hide-mob__mask js-mob-close"></div>
+                <ul class="mob-nav">
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="index.html">Inicio</a>
+                    </li>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="shop.html">Tienda</a>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="blank">Whatsapp</a>
+                    </li>                                                                                                
+                </ul>
+                <div class="hide-mob__socials">
+                    <ul class="socials__list socials__list_center">
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.facebook.com/Marlynshopgt/" target="_blank" title="Facebook">Fb</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.instagram.com/marlynshopgt/" target="_blank" title="Instagram">Ins</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.tiktok.com/@marlynshop" target="_blank" title="Tik Tok">Tik</a>
+                        </li>                                                                           
+                    </ul>
+                </div>                    
+            </div>              
+        </div>
+        <!-- MOBILE NAVIGATION END -->         
+
+        <!-- BEGIN MAIN -->
+        <main class="main">              
+
+            <!-- BEGIN INNER TOP -->
+            <div class="inner-top">
+                <div class="inner-top__main wrapper">
+                    <div class="inner-top__cols">
+                        <div class="inner-top__left">
+                            <h1 class="inner-top__title">Productos</h1>
+                            <div class="breadcrumbs">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a class="breadcrumbs__link" href="index.html">Inicio</a>
+                                    </li>
+                                    <li class="breadcrumbs__item">Tienda</li>                                
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="inner-top__right">
+                            <div class="inner-top__image" data-bg="assets/imagenes/tienda/wall.jpg"></div>
+                        </div>                        
+                    </div>
+                    <img class="inner-top__bg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/img/svg/vector-inner-top.svg" alt="">
+                </div>
+            </div>
+            <!-- INNER TOP END -->
+
+            <!-- BEGIN SHOP -->
+            <div class="shop wrapper">
+                <div class="shop__cols">
+
+                    <!-- BEGIN LEFT COLUMN -->
+                    <aside class="shop__left">
+                        <div class="desktop-items js-from-2">
+                            <div class="side-items js-content-2">
+                                <section class="widget">
+                                    <h3 class="widget__title">Populares</h3>
+                                    <div class="short-reviews">
+                                        <article class="reviewed">
+                                            <div class="reviewed__cols">
+                                                <div class="reviewed__left">
+                                                    <a class="reviewed__image-bg" href="product_page.html">
+                                                        <img class="reviewed__image" src="assets/imagenes/tienda/07.jpg" alt="">                          
+                                                    </a>
+                                                </div>
+                                                <div class="reviewed__right">
+                                                    <h4 class="reviewed__title">
+                                                        <a class="reviewed__link" href="product_page.html">Nombre del producto</a>
+                                                    </h4>
+                                                    <span class="reviewed__price">Q. 200.00</span>
+                                                </div>                                        
+                                            </div>
+                                        </article>
+                                        <article class="reviewed">
+                                            <div class="reviewed__cols">
+                                                <div class="reviewed__left">
+                                                    <a class="reviewed__image-bg" href="product_page.html">
+                                                        <img class="reviewed__image" src="assets/imagenes/tienda/10.jpg" alt="">                          
+                                                    </a>
+                                                </div>
+                                                <div class="reviewed__right">
+                                                    <h4 class="reviewed__title">
+                                                        <a class="reviewed__link" href="product_page.html">Nombre del producto</a>
+                                                    </h4>
+                                                    <span class="reviewed__price">Q. 200.00</span>
+                                                    <span class="reviewed__old-price">Q. 250.00</span>
+                                                </div>                                        
+                                            </div>
+                                        </article>
+                                        <article class="reviewed">
+                                            <div class="reviewed__cols">
+                                                <div class="reviewed__left">
+                                                    <a class="reviewed__image-bg" href="product_page.html">
+                                                        <img class="reviewed__image" src="assets/imagenes/tienda/03.jpg" alt="">                          
+                                                    </a>
+                                                </div>
+                                                <div class="reviewed__right">
+                                                    <h4 class="reviewed__title">
+                                                        <a class="reviewed__link" href="product_page.html">Nombre del producto</a>
+                                                    </h4>
+                                                    <span class="reviewed__price">Q. 200.00</span>
+                                                </div>                                        
+                                            </div>
+                                        </article>                                           
+                                    </div>
+                                </section>                                 
+                                <article class="sale-banner">
+                                    <div class="sale-banner__all">
+                                        <div class="sale-banner__row">
+                                            <div class="sale-banner__cell">
+                                                <div class="sale-banner__content">
+                                                    <h4 class="sale-banner__title">PRECIOS<span>BAJOS</span></h4>
+                                                    <p class="sale-banner__text">Gran variedad de precios en nuestros productos.</p>
+                                                    <a class="sale-banner__more read-more" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="blank">Whatsapp</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sale-banner__border"></div>
+                                    <div class="sale-banner__image" data-bg="assets/imagenes/index/fondos/01.jpg"></div>
+                                    <a class="sale-banner__link" href="shop.html"></a>
+                                </article>
+                            </div>
+                        </div>
+
+                    </aside>
+                    <!-- LEFT COLUMN END -->  
+                    
+                    <!-- BEGIN RIGHT COLUMN -->
+                    <div class="shop__right">
+                        <div class="inner-catalog">
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/01.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_red">OFERTA</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/02.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/03.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_green">NUEVO</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/04.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/05.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_green">NUEVO</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article> 
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/06.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/07.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_green">NUEVO</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/08.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_red">OFERTA</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/09.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/10.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_red">OFERTA</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/11.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>           
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/12.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/13.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_green">NUEVO</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/14.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_red">OFERTA</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                            <article class="short-item">
+                                <div class="short-item__all">
+                                    <a class="short-item__image-bg" href="producto.html">
+                                        <img class="short-item__image" src="assets/imagenes/tienda/15.jpg" alt="">
+                                    </a>
+                                    <div class="short-item__top">
+                                        <div class="short-item__cols">
+                                            <div class="short-item__col">
+                                                <span class="item-tag item-tag_red">OFERTA</span>
+                                            </div>
+                                            <div class="short-item__col">
+                                                <button class="heart-button js-toggle-active"></button>
+                                            </div>                                        
+                                        </div>
+                                    </div>
+                                    <h4 class="short-item__title">
+                                        <a class="short-item__link" href="producto.html">Nombre del producto</a>
+                                    </h4>
+                                    <span class="short-item__price">Q300.00</span>
+                                    <span class="short-item__old-price">Q500.00</span>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="page-nav">
+                            <div class="page-nav__col">
+                                <a class="page-nav__button prev-button" href="#"></a>
+                            </div>
+                            <div class="page-nav__col">
+                                <ul class="page-nav__list">
+                                    <li class="page-nav__item active">
+                                        <a class="page-nav__link" href="#">1</a>
+                                    </li>
+                                    <li class="page-nav__item">
+                                        <a class="page-nav__link" href="#">2</a>
+                                    </li>
+                                    <li class="page-nav__item">
+                                        <a class="page-nav__link" href="#">3</a>
+                                    </li>                                                                
+                                </ul>
+                            </div>
+                            <div class="page-nav__col">
+                                <a class="page-nav__button next-button" href="#"></a>
+                            </div>                                                
+                        </div>
+
+                    </div>
+                    <!-- RIGHT COLUMN END -->                
+
+                </div>
+
+                <div class="mob-items js-to-2"></div>
+             
+            </div>
+            <!-- SHOP END -->
+        </main>
+        <!-- MAIN END -->
+        
+               <!-- BEGIN FOOTER -->
+               <footer class="footer">      
+                <div class="footer__main wrapper">
+                    <div class="footer__top">
+                        <div class="footer__cols">
+                            <div class="footer__col">
+                                <a class="footer-logo logo" href="https://www.facebook.com/Marlynshopgt/" target="_blank">
+                                    <img class="logo__image" src="assets/imagenes/Marlyn.png" alt="">
+                                </a>
+                                <span class="footer-description">Marlyn Shop All Rights Reserved</span>  
+                                <div class="footer-line"></div>  
+                                <div class="socials">
+                                    <span class="socials__text">Háblanos</span>
+                                    <ul class="socials__list">
+                                        <li class="socials__item">
+                                            <a class="socials__link" target="_blank" href="https://www.facebook.com/Marlynshopgt/">Facebook</a>
+                                        </li>
+                                        <li class="socials__item">
+                                            <a class="socials__link" target="_blank" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20">Whatsapp</a>
+                                        </li>                                                                          
+                                    </ul>
+                                </div>                        
+                            </div>
+                            <div class="footer__col">
+                                <nav class="footer-nav">
+                                    <div class="footer-nav__col">
+                                        <span class="footer-title">Redes</span>
+                                        <ul class="footer-nav__list">
+                                            <li class="footer-nav__item">
+                                                <a class="footer-nav__link" href="about.html">Facebook</a>
+                                            </li>
+                                            <li class="footer-nav__item">
+                                                <a class="footer-nav__link" href="collections.html">Tik Tok</a>
+                                            </li>
+                                            <li class="footer-nav__item">
+                                                <a class="footer-nav__link" href="shop.html">Whatsapp</a>
+                                            </li>
+                                        </ul>
+                                    </div>               
+                                </nav>
+                            </div>
+                            <div class="footer__col">
+                                <span class="footer-title">Comentarios</span>
+                                <span class="footer-description">Nos alegra escuchar tus comentarios</span>
+                                <form>
+                                    <div class="subscription">
+                                        <input class="subscription__input" type="email" placeholder="Coméntanos">
+                                        <button class="subscription__button" type="submit"></button>
+                                    </div>
+                                </form>                            
+                            </div>                                                
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- FOOTER END -->  
+
+    </div> 
+       
+
+    <script src="assets/js/libs/jquery-3.5.1.min.js"></script> 
+    <script src="assets/js/libs/jquery-migrate-1.4.1.min.js"></script>   
+    <script src="assets/js/components/slick.js"></script>
+    <script src="assets/js/components/syotimer.js"></script>
+    <script src="assets/js/components/formstyler.js"></script>
+    <script src="assets/js/components/wnumb.js"></script>
+    <script src="assets/js/components/nouislider.js"></script>
+    <script src="assets/js/main.js"></script>  
+
+</body>
+</html>

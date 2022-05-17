@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="spanish">
+<head>
+    <meta charset="utf-8">
+	<meta name="format-detection" content="telephone=no">
+    <meta id="Viewport" name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <title>Marlyn Shop</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="it-rating" content="it-rat-cd303c3f80473535b3c667d0d67a7a11" />
+    <meta name="cmsmagazine" content="3f86e43372e678604d35804a67860df7" />
+    <style>
+        .loaded .load-icon{display:block;}
+        .loaded *{-webkit-transition:none; -ms-transition:none; transition:none;}
+        .load-icon{width:100%; height:100%; margin:0; padding:0; display:none; z-index:99999; position:absolute; top:0; left:0; background:#fff;}
+        .load-icon:before{content:""; width:64px; height:64px; margin:-32px 0 0 -32px; position:absolute; top:50%; left:50%; background:url(assets/img/loader.gif) no-repeat left top;}
+    </style>     
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">       
+</head>
+<body class="loaded">
+
+    <div class="load-icon"></div>
+
+    <div class="page-container">
+
+        <!-- BEGIN HEADER -->
+        <header class="header">
+            <div class="header__main">
+                <div class="header__cols">
+                    <div class="header__left">
+                        <div class="header__cols">
+                            <div class="header__col">
+                                <button class="mob-button js-mob-open">
+                                    <span class="mob-button__icon"></span>
+                                </button>
+                            </div>
+                            <div class="header__col">
+                                <a class="logo" href="#">
+                                    <img class="logo__image" src="assets/imagenes/Marlyn.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__col header__col_hide-mob">
+                                <nav class="header-nav">
+                                    <ul class="header-nav__list">
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="index.html">Inicio</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="shop.html">Tienda</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="about.html">Sobre nosotros</a>
+                                        </li>
+                                        <li class="header-nav__item">
+                                            <a class="header-nav__link" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="blank">Whatsapp</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>                                                
+                        </div>
+                    </div>
+                    <div class="header__right">
+                        <ul class="user-nav">
+                            <li class="user-nav__item">
+                                <a class="user-nav__link" href="https://www.instagram.com/marlynshopgt/" target="_blank" title="Instagram">
+                                    <span class="user-nav__icon user-nav__icon_3"></span>
+                                </a>
+                            </li>
+                            <li class="user-nav__item">
+                                <a class="user-nav__link" href="shop.html" title="Tienda">
+                                    <span class="user-nav__icon user-nav__icon_4"></span>
+                                </a>
+                            </li>                                                                                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER END --> 
+        
+        <!-- MOBILE NAVIGATION -->
+        <div class="hide-mob js-mob-hide">
+            <div class="hide-mob__bg">
+                <button class="hide-mob__close close-button js-mob-close"></button>  
+                <div class="hide-mob__mask js-mob-close"></div>
+                <ul class="mob-nav">
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="index.html">Inicio</a>
+                    </li>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="shop.html">Tienda</a>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="about.html">Sobre nosotros</a>
+                    </li>
+                    <li class="mob-nav__item">
+                        <a class="mob-nav__link" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="blank">Whatsapp</a>
+                    </li>                                                                                                
+                </ul>
+                <div class="hide-mob__socials">
+                    <ul class="socials__list socials__list_center">
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.facebook.com/Marlynshopgt/" target="_blank" title="Facebook">Fb</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.instagram.com/marlynshopgt/" target="_blank" title="Instagram">Ins</a>
+                        </li>
+                        <li class="socials__item">
+                            <a class="socials__link" href="https://www.tiktok.com/@marlynshop" target="_blank" title="Tik Tok">Tik</a>
+                        </li>                                                                           
+                    </ul>
+                </div>                    
+            </div>              
+        </div>
+        <!-- MOBILE NAVIGATION END --> 
+
+        <!-- BEGIN MAIN -->
+        <main class="main">              
+
+            <!-- BEGIN FIRST SCREEN -->
+            <div class="first-screen">
+                <div class="first-screen__left">
+                    <div class="first-screen__mob-cols">
+                        <div class="first-screen__mob-col">
+                            <div class="slider-count">
+                                <span class="slider-count__text js-main-count"><span>1</span>/3</span>
+                            </div>  
+                        </div>
+                        <div class="first-screen__mob-col">
+                            <ul class="first-screen__socials side-socials">
+                                <li class="side-socials__item">
+                                    <a class="side-socials__link" href="https://www.facebook.com/Marlynshopgt/" target="_blank" title="Facebook">FB</a>
+                                </li>
+                                <li class="side-socials__item">
+                                    <a class="side-socials__link" href="https://www.instagram.com/marlynshopgt/" target="_blank" title="Instagram">INS</a>
+                                </li>
+                                <li class="side-socials__item">
+                                    <a class="side-socials__link" href="https://www.tiktok.com/@marlynshop" target="_blank" title="Tik Tok">TIK</a>
+                                </li>
+                                <li class="side-socials__item">
+                                    <a class="side-socials__link" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20" target="_blank" title="Whatsapp">WPP</a>
+                                </li>
+                            </ul>                        
+                        </div>
+                        <div class="first-screen__mob-col js-to-1"></div>                            
+                    </div>                                                     
+                </div>
+                <div class="first-screen__center">
+                    <div class="main-slider">
+                        <div class="main-slider__list-wrap">
+                            <div class="main-slider__list js-main-slider loaded">
+                                <div class="main-slider__item js-slide active">
+                                    <div class="main-slider__max">
+                                        <div class="main-slider__row">
+                                            <div class="main-slider__cell">
+                                                <div class="main-slider__content">
+                                                    <span class="main-slider__subtitle category-subtitle"><b>Chimaltenango</b> Yepocapa</span>
+                                                    <h2 class="main-slider__title">Marlyn Shop</h2>
+                                                    <h3> Jewelry & Watches Store</h3>
+                                                    <a class="main-slider__button button" href="shop.html">
+                                                        <span class="button__text">¡Comprar ahora!</span>
+                                                    </a>
+                                                </div>
+                                                <div class="main-slider__image-wrap">
+                                                    <div class="main-slider__image" data-bg="assets/imagenes/index/fondos/01.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-slider__item js-slide">
+                                    <div class="main-slider__max">
+                                        <div class="main-slider__row">
+                                            <div class="main-slider__cell">
+                                                <div class="main-slider__content">
+                                                    <span class="main-slider__subtitle category-subtitle"><b>Nuevo</b> Nuevo</span>
+                                                    <h2 class="main-slider__title">Descubre</h2>
+                                                    <h4>Las nuevas colecciones.</h4>
+                                                    <a class="main-slider__button button" href="shop.html">
+                                                        <span class="button__text">Descubrir</span>
+                                                    </a>
+                                                </div>
+                                                <div class="main-slider__image-wrap">
+                                                    <div class="main-slider__image" data-bg="assets/imagenes/index/fondos/02.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-slider__item js-slide">
+                                    <div class="main-slider__max">
+                                        <div class="main-slider__row">
+                                            <div class="main-slider__cell">
+                                                <div class="main-slider__content">
+                                                    <span class="main-slider__subtitle category-subtitle"><b>Chimaltenango </b>Yepocapa</span>
+                                                    <h2 class="main-slider__title">Marlyn Shop</h2>
+                                                    <h4>Joyeria y tienda de relojes</h4>
+                                                    <a class="main-slider__button button" href="shop.html">
+                                                        <span class="button__text">¡Comprar ahora!</span>
+                                                    </a>
+                                                </div>
+                                                <div class="main-slider__image-wrap">
+                                                    <div class="main-slider__image" data-bg="assets/imagenes/index/fondos/03.jpg"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                                                                   
+                            </div>
+                        </div>
+                        <div class="main-slider__bg-wrap">
+                            <img class="main-slider__bg" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/img/svg/vector-first-screen.svg" alt="">
+                            <div class="scroll-down">
+                                <span class="scroll-down__icon"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="first-screen__right js-from-1">
+                    <div class="slider-dots dots-1 js-main-dots"></div>
+                    <div class="slider-arrows arrows-1 js-main-arrows js-content-1"></div>
+                </div>
+            </div>
+            <!-- FIRST SCREEN END -->
+
+            <!-- BEGIN COLLECTION -->
+            <section class="collection-block wrapper">
+                <div class="collection-block__content">
+                    <div class="collections">
+                        <div class="collections__top">
+                            <div class="collections__max">
+                                <h3 class="collection-title">
+                                    <span class="collection-title__count">1000</span>
+                                    <span class="collection-title__plus">+</span>
+                                    <span class="collection-title__text">Productos para ti</span>
+                                </h3>
+                            </div>
+                        </div>                        
+                        <article class="collection collection_1">
+                            <div class="collection__all">
+                                <div class="collection__mob-image">
+                                    <a class="collection__image" data-bg="assets/imagenes/index/categorias/01.jpg" href="#"></a>
+                                    <span class="collection__category">Collares</span>  
+                                </div>
+                                <div class="collection__row">
+                                    <div class="collection__cell">
+                                        <div class="collection__content">
+                                            <span class="collection__subtitle category-subtitle"><b>Nuevos</b> Ingresos</span>
+                                            <h4 class="collection__title">Elegancia</h4>
+                                            <a class="collection__more read-more" href="shop.html">Ver colección</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <a class="collection__link" href="shop.html"></a>
+                            </div>
+                        </article>
+                        <article class="season-sale">
+                            <div class="season-sale__all">
+                                <div class="season-sale__image" data-bg="assets/imagenes/index/categorias/02.jpg"></div>
+                                <div class="season-sale__row">
+                                    <div class="season-sale__cell">
+                                        <div class="season-sale__content">
+                                            <h4 class="season-sale__title">Aretes<span>MODA</span></h4>
+                                            <p class="season-sale__text"></p>
+                                            <a class="season-sale__more read-more" href="shop.html">Ver más</a>
+                                        </div>
+                                    </div>
+                                </div>    
+                                <a class="season-sale__link" href="shop.html"></a>                           
+                            </div>
+                        </article>                        
+                        <article class="collection collection_2">
+                            <div class="collection__all">
+                                <div class="collection__mob-image">
+                                    <a class="collection__image" data-bg="assets/imagenes/index/categorias/03.jpg" href="#"></a>
+                                    <span class="collection__category">Detalles</span>
+                                </div>
+                                <div class="collection__row">
+                                    <div class="collection__cell">
+                                        <div class="collection__content">
+                                            <span class="collection__subtitle category-subtitle"><b>Colección </b>parejas</span>
+                                            <h4 class="collection__title">Parejas</h4>
+                                            <a class="collection__more read-more" href="shop.html">Ver colección</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="collection__link" href="shop.html"></a>  
+                            </div>
+                        </article> 
+                        <article class="collection collection_3">
+                            <div class="collection__all">
+                                <div class="collection__mob-image">
+                                    <a class="collection__image" data-bg="assets/imagenes/index/categorias/04.jpg" href="#"></a>
+                                    <span class="collection__category">Aretes</span>   
+                                </div>
+                                <div class="collection__row">
+                                    <div class="collection__cell">
+                                        <div class="collection__content">
+                                            <h4 class="collection__title">Joyeria para cada día</h4>
+                                            <a class="collection__more read-more" href="shop.html">Comprar ahora</a>
+                                        </div>
+                                    </div>
+                                </div> 
+                                <a class="collection__link" href="shop.html"></a>                                
+                            </div>
+                        </article>                                               
+                        <div class="collections__bottom">
+                            <div class="collections__max">
+                                <h3 class="collection-title">
+                                    <span class="collection-title__text">Envio a toda Guatemala</span>
+                                </h3>      
+                            </div>                      
+                        </div>
+                    </div> 
+                    <div class="load-more">
+                        <a class="button" href="shop.html">
+                            <span class="button__text">¡Comprar ahora!</span>
+                        </a>
+                    </div>                                     
+                </div>                  
+                <img class="collection-block__bg-left" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/img/svg/vector-collections.svg" alt="">
+                <img class="collection-block__bg-right" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/img/svg/vector-collections.svg" alt="">
+            </section>
+            <!-- COLLECTION END -->
+            
+            <!-- BEGIN ADVANTAGES -->
+            <div class="advantages wrapper">
+                <div class="advantages__list">
+                    <article class="advantage">
+                        <div class="advantage__content">
+                            <div class="advantage__icon-wrap">
+                                <img class="advantage__icon" src="assets/imagenes/index/logo/01.jpg" alt="">
+                            </div>
+                            <h4 class="advantage__title">¡Paga con tarjeta!</h4>
+                            <div class="advantage__line"></div>
+                            <p class="advantage__text">Aceptamos pagos con tarjetas visa y mastercard.</p>
+                        </div>
+                    </article>
+                    <article class="advantage">
+                        <div class="advantage__content">
+                            <div class="advantage__icon-wrap">
+                                <img class="advantage__icon" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/imagenes/index/logo/02.jpg" alt="">
+                            </div>
+                            <h4 class="advantage__title">¡Envios por Cargo Expreso!</h4>
+                            <div class="advantage__line"></div>
+                            <p class="advantage__text">Contamos con pagos contra entrega y envios por Cargo Expreso.</p>
+                        </div>
+                    </article>
+                    <article class="advantage">
+                        <div class="advantage__content">
+                            <div class="advantage__icon-wrap">
+                                <img class="advantage__icon" src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-lazy="assets/imagenes/index/logo/03.jpg" alt="">
+                            </div>
+                            <h4 class="advantage__title">¡Ofertas especiales!</h4>
+                            <div class="advantage__line"></div>
+                            <p class="advantage__text">Encuentra precios especiales en nuestros productos ofertados.</p>
+                        </div>
+                    </article>                                        
+                </div>
+            </div>
+            <!-- ADVANTAGES END -->
+
+        
+
+        </main>
+        <!-- MAIN END -->
+        
+        <!-- BEGIN FOOTER -->
+        <footer class="footer">      
+            <div class="footer__main wrapper">
+                <div class="footer__top">
+                    <div class="footer__cols">
+                        <div class="footer__col">
+                            <a class="footer-logo logo" href="https://www.facebook.com/Marlynshopgt/" target="_blank">
+                                <img class="logo__image" src="assets/imagenes/Marlyn.png" alt="">
+                            </a>
+                            <span class="footer-description">Marlyn Shop All Rights Reserved</span>  
+                            <div class="footer-line"></div>  
+                            <div class="socials">
+                                <span class="socials__text">Háblanos</span>
+                                <ul class="socials__list">
+                                    <li class="socials__item">
+                                        <a class="socials__link" target="_blank" href="https://www.facebook.com/Marlynshopgt/">Facebook</a>
+                                    </li>
+                                    <li class="socials__item">
+                                        <a class="socials__link" target="_blank" href="https://api.whatsapp.com/send?phone=50237348576&text=Hola!%20Necesito%20informaci%C3%B3n%20">Whatsapp</a>
+                                    </li>                                                                          
+                                </ul>
+                            </div>                        
+                        </div>
+                        <div class="footer__col">
+                            <nav class="footer-nav">
+                                <div class="footer-nav__col">
+                                    <span class="footer-title">Redes</span>
+                                    <ul class="footer-nav__list">
+                                        <li class="footer-nav__item">
+                                            <a class="footer-nav__link" href="about.html">Facebook</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a class="footer-nav__link" href="collections.html">Tik Tok</a>
+                                        </li>
+                                        <li class="footer-nav__item">
+                                            <a class="footer-nav__link" href="shop.html">Whatsapp</a>
+                                        </li>
+                                    </ul>
+                                </div>               
+                            </nav>
+                        </div>
+                        <div class="footer__col">
+                            <span class="footer-title">Comentarios</span>
+                            <span class="footer-description">Nos alegra escuchar tus comentarios</span>
+                            <form>
+                                <div class="subscription">
+                                    <input class="subscription__input" type="email" placeholder="Coméntanos">
+                                    <button class="subscription__button" type="submit"></button>
+                                </div>
+                            </form>                            
+                        </div>                                                
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- FOOTER END -->    
+
+    </div> 
+       
+
+    <script src="assets/js/libs/jquery-3.5.1.min.js"></script> 
+    <script src="assets/js/libs/jquery-migrate-1.4.1.min.js"></script>   
+    <script src="assets/js/components/slick.js"></script>
+    <script src="assets/js/components/syotimer.js"></script>
+    <script src="assets/js/main.js"></script>  
+
+</body>
+</html>
